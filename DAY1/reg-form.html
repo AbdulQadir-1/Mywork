@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reg-form</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        button:hover{
+background-color:black;
+color: white;
+transition-duration: 0.10s;
+
+}
+    </style>
+</head>
+
+<body>
+    <div class="reg-head">
+        <h1>Registration Form</h1>
+    </div>
+    <form>
+        <div class="main-div-1">
+            <div class="try-2">
+                <label for="fname"><b>First Name</b></label><br>
+                <input class="input-8" type="text" placeholder="Enter your first name">
+            </div>
+            <div class="try-3">
+                <label class="fname" for="lname"><b>Last Name</b></label>
+                <input class="input-8" type="text" placeholder="Enter your last name">
+            </div>
+        </div>
+        <div class="main-div-2">
+            <div class="try-2">
+                <label for="email"><b>Email</b></label><br>
+                <input class="input-8" type="email" placeholder="Enter your email">
+            </div>
+            <div class="try-3">
+                <label class="fname" for="Password"><b>Password</b></label>
+                <input class="input-8" type="password" placeholder="Enter your password">
+            </div>
+        </div>
+
+
+        </div>
+        <div class="main-div-3">
+
+
+            <div class="try-2">
+                <label for="interest"><b>Interest</b></label><br>
+                <input type="checkbox">Football<br>
+                <input type="checkbox">Cricket<br>
+                <input type="checkbox">Basketball<br>
+            </div>
+            <div class="try-3">
+                <label for="Gender"><b>Gender</b></label> <br>
+                <input type="radio" name="gender">Male<br>
+                <input type="radio" name="gender">Female<br>
+                <input type="radio" name="gender">custom
+            </div>
+        </div>
+        <div class="main-div-4">
+            <div class="try-2">
+                <label for="age"><b>Date of Birth</b></label><br>
+                <input class="input-9" type="date">
+            </div>
+            <div class="try-3">
+                <label class="fname" for="lname"><b>Address</b></label>
+                <select name="cities" class="city">
+                    <option value="Lahore">Lahore</option>
+                    <option value="Islamabad">Islamabad</option>
+                    <option value="Karachi">Karachi</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Quetta">Quetta</option>
+                </select>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="des-2">
+            <b>Description</b>
+        </div>
+        <textarea class="txt"></textarea>
+        <button class="btn-2">Submit</button>
+    </form>
+
+</body>
+
+</html>
